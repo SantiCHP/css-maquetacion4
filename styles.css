@@ -31,7 +31,9 @@
 #header{
     display: grid;
     grid-template-columns: 68% 30%;
+    grid-template-columns: 3fr 1fr;
     align-items: center;
+    justify-content: left;
     
     width: 100%;
     height: 120px;
