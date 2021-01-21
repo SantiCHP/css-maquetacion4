@@ -271,6 +271,7 @@
     #projects{
         display: grid;
         grid-template-columns: 1fr;
+        width: 100%;
         grid-gap: 20px;
     }
 
@@ -279,15 +280,25 @@
         margin-left: 10px;
     }
 
-    #aside{
+    #aside {
         margin: 0px;
+    }
+
+    #aside h2{
+        margin-top: -20px;
     }
 
     #aside ul{
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows:  repeat(2, 1fr);
         grid-gap: 10px;
     }
+
+    #aside ul li{
+        padding-bottom: 0px;
+    }
+
     #footer{
         display: grid;
         grid-template-columns: 1fr;
